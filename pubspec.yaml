@@ -1,0 +1,32 @@
+name: flutter_nexoft
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.3+1
+  riverpod: ^2.3.7
+  hooks_riverpod: ^2.3.8
+  sizer: ^2.0.15
+  google_fonts: ^6.2.1
+  kartal: ^4.0.3
+  image_picker: ^1.1.1
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
